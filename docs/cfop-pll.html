@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./application.css" />
+    <script src="./application.js"></script>
+    <title>Twisty Flashcards - Flashcards for memorising twisty puzzle algorithms</title>
+  </head>
+  <body>
+    <div class="divider"></div>
+
+    <div class="nav_wrapper wrapper">
+      <nav class="top_level">
+        <a class="home_link" href="./index.html">Twisty Flashcards</a>
+      </nav>
+    </div>
+
+    <div class="main_wrapper wrapper">
+      <article>
+        <h1>CFOP - PLL</h1>
+        <div id="flashcards" data-set="cfopPll">
+          <div class="boxes">
+            <div class="box" data-id="0">21</div>
+            <div class="box" data-id="1">0</div>
+            <div class="box" data-id="2">0</div>
+            <div class="box" data-id="3">0</div>
+            <div class="box" data-id="4">0</div>
+          </div>
+          <div class="flashcard">
+            <img class="image" src="images/default.svg" />
+            <div class="algorithm">
+              <span>-</span>
+            </div>
+            <div class="controls">
+              <a class="pass" href="#">Pass</a>
+              <a class="flip" href="#">Flip</a>
+              <a class="fail hidden" href="#">Fail</a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="footer_wrapper wrapper">
+      <footer>
+        <p>Twisty Flashcards</p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Century Gothic", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #e0e0e0;
+  color: #404040;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.wrapper > * {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.nav_wrapper {
+  background-color: #400000;
+}
+
+.divider {
+  height: 0.5em;
+  background: linear-gradient(to right, white 17%, blue 17%, blue 33%, orange 33%, orange 50%, green 50%, green 66%, yellow 66%, yellow 83%, red 83%, red 100%);
+}
+
+.main_wrapper {
+  flex: 1;
+}
+
+.footer_wrapper {
+  margin-top: 2em;
+  background-color: #c0c0c0;
+}
+
+nav.top_level {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav.top_level a {
+  color: #e0e0e0;
+  padding: 1em 10px;
+}
+
+nav.top_level a:hover {
+  background-color: #e0e0e0;
+  color: #a0a0a0;
+}
+
+article {
+  padding: 0;
+}
+
+article h1 {
+  font-size: 2em;
+  padding: 1em 0;
+  text-align: center;
+}
+
+.sets {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.set {
+  display: flex;
+}
+
+.set a {
+  width: 300px;
+  text-align: center;
+  background-color: #ff4500;
+  color: #e0e0e0;
+  padding: 1em 10px;
+  margin: 0.5em 0;
+  border: solid 1px #ff4500;
+}
+
+.set a:hover {
+  color: #ff4500;
+  background-color: #e0e0e0;
+}
+
+footer p {
+  text-align: center;
+  padding: 1em 0;
+}
+
+#flashcards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box {
+  width: 100%;
+  font-size: 2em;
+  padding: 0.5em 0;
+  margin: 0 5px;
+  width: 60px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.flashcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 300px;
+}
+
+.algorithm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.algorithm span {
+  font-size: 2em;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1em 0;
+}
+
+.controls a {
+  width: 140px;
+  font-size: 2em;
+  padding: 0.5em 0;
+  margin: 0 10px;
+  text-align: center;
+  color: #f0f0f0;
+  background-color: #808080;
+}
+
+.controls a.hidden {
+  display: none;
+}
+
+a.pass {
+  background-color: #008000;
+}
+
+a.fail {
+  background-color: #800000;
+}
